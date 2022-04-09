@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #71c7a7;
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+  }
+
+  #divleft {
+    width:50%;
+    float: left
+  }
+
+  #divright {
+    margin-left: 50%;
+  }
+
+  fieldset {
+    border: 0;
+  }
+
+  
+  /* Style the footer */
+  footer {
+    background-color: rgba(119, 119, 119, 0.408);
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+
+  a { text-decoration: none; }
+
+  fieldset { 
+    margin: 0 0 20px 0; } 
+
+fieldset legend { 
+    font-weight: bold; 
+    font-size: 16px; 
+    padding: 0 0 10px 0; 
+    color: #214062; } 
+
+fieldset label { 
+    width: 170px; 
+    float: left; 
+    margin-right:10px; 
+    vertical-align: top; } 
+
+fieldset ol { 
+    list-style:none; 
+    margin: 0;
+    padding: 0;} 
+
+fieldset ol li { 
+    float:left; 
+    width:100%; 
+    padding-bottom:7px; 
+    padding-left: 0; 
+    margin-left: 0; } 
+
+fieldset ol li input, 
+fieldset ol li select, 
+fieldset ol li textarea { 
+    margin-bottom: 5px; } 
+
+form fieldset div.inputWrapper { 
+    margin-left: 180px; } 
+
+.note { 
+    font-size: 0.9em; color: #666; }
+
+.error{ 
+    color: #d00; }
+
+input[type=submit], input[type=reset] {
+        background-color: #71c7a7;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+
+  

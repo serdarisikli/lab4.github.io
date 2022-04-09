@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Workshop Registration</title>
+        
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        </head>
+<body>
+
+
+<header>
+  <h2>Workshop Registration</h2> <a href="#">More action </a><i class="arrow down"></i>
+</header>
+
+<p><u>Register now while seats are available!</u></p>
+
+<form action="/signup" method="post">
+  <div>
+    <div id="divleft">
+    <fieldset>
+      <legend></legend>
+      <ol>
+      <li><label for="name">First name <span class="error">*</span>
+          </label><input type="text" id="name" name="name" size="30" /></li>
+      <li><label for="name">Last name <span class="error">*</span>
+          </label><input type="text" id="lname" name="lname" size="30" /></li>
+      <li><label for="cname">Company/Instition <span class="error">*</span>
+      </label><input type="text" id="cname" name="cname" size="30" /></li>
+      <li><label for="cname">Address <span class="error">*</span>
+      </label><textarea rows="4" cols="50" name="address"></textarea></li>
+      <li><label for="name">City </label><input type="text" id="city" name="city" size="30" /></li>
+     
+      <li><label for="name">State / Province / Region </label>
+      <select name="state" id="state">
+        <option value="volvo">Iowa</option>
+        <option value="saab">Florida</option>
+        <option value="mercedes">Texas</option>
+      </select>
+      </li>
+      <li><label for="name">Country</label>
+        <select name="state" id="state">
+          <option value="volvo">USA</option>
+          <option value="saab">Turkey</option>
+          <option value="mercedes">Germany</option>
+        </select>
+      </li>
+      <li><label for="email">Email <span class="error">*</span>
+      </label><input type="text" id="email" name="email" size="30" /></li>
+      <li><label for="email">Phone number <span class="error">*</span>
+      </label><input type="text" id="phone" name="phone" size="30" /></li>
+      </ol>
+      </fieldset>
+      </div>
+
+      <div id="divright">
+      <fieldset>
+        <legend>Lunch</legend>
+        <label for="name">Meal Preference </label>
+        <select name="state" id="state">
+          <option value="volvo">Vegeterian</option>
+          <option value="saab">Vegan</option>
+          <option value="mercedes">Regular</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment Details</legend> </br>
+        <label for="name">Payment Mode</label>
+      <fieldset>
+
+        <input type="checkbox" id="cash" name="cash" value="Cash">
+        <label for="checkbox"> Cash</label><br>
+        <input type="checkbox" id="cheque" name="cheque" value="Cheque">
+        <label for="cheque"> Check</label><br>
+        <input type="checkbox" id="demanddraft" name="demanddraft" value="Demanddraft">
+        <label for="demanddraft"> Demand Draft</label><br>
+      </fieldset>
+
+     
+      </fieldset>
+
+      <fieldset>
+        <legend></legend>
+        <ol>
+        <li><label for="dd">DD / Cheque No.
+            </label><input type="text" id="dd" name="dd" size="30" /></li>
+        <li><label for="name">Drawn On (Bank Name)
+            </label><input type="text" id="drwan" name="drwan" size="30" /></li>
+        <li><label for="cname">Payable at
+        </label><input type="text" id="payableat" name="payableat" size="30" /></li>
+        </ol>
+        </fieldset>
+      </div>
+    </div>
+</form>
+
+<footer>
+    <input type="submit" value="Submit" /> <input type="reset" value="Reset" />
+</footer>
+
+</body>
+</html>
+
